@@ -95,7 +95,7 @@ Defense-in-depth security architecture for UAV flight controllers. Cross-compile
 
 ---
 
-### 🔐 [SHA-256 Trusted Application on OP-TEE (ARM TrustZone)](https://github.com/10GiC10V38/optee-rpi3-work)
+### 🔐 [SHA-256 Trusted Application on OP-TEE (ARM TrustZone)](https://github.com/10GiC10V38/tee-sha256-benchmark)
 
 SHA-256 running inside a Secure World TEE on Raspberry Pi 3. Built a custom benchmarking framework using **inline ARM64 assembly (`cntpct_el0`)** to measure the exact cost of world-switching — isolating system latency, pure algorithm time, and memory copy overhead. Had to patch TEE Core kernel initialization to unlock PMU access from S-EL0. Real hardware, real numbers.
 
